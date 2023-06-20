@@ -7843,77 +7843,77 @@
     {
       "ID": "oval:com.redhat.cve:obj:202135937001",
       "Version": "636",
-      "Name": "rpm-sign"
+      "Name": "rpm-plugin-prioreset"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202135937002",
       "Version": "636",
-      "Name": "rpm-libs"
+      "Name": "rpm-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202135937003",
       "Version": "636",
-      "Name": "rpm-plugin-fapolicyd"
+      "Name": "rpm-plugin-systemd-inhibit"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202135937004",
       "Version": "636",
-      "Name": "rpm-cron"
+      "Name": "rpm-plugin-syslog"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202135937005",
       "Version": "636",
-      "Name": "rpm-plugin-ima"
+      "Name": "rpm-cron"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202135937006",
       "Version": "636",
-      "Name": "rpm-plugin-syslog"
+      "Name": "python3-rpm"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202135937007",
       "Version": "636",
-      "Name": "python3-rpm"
+      "Name": "rpm"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202135937008",
       "Version": "636",
-      "Name": "rpm-apidocs"
+      "Name": "rpm-sign"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202135937009",
       "Version": "636",
-      "Name": "rpm-build-libs"
+      "Name": "rpm-plugin-fapolicyd"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202135937010",
       "Version": "636",
-      "Name": "rpm-plugin-prioreset"
+      "Name": "rpm-plugin-ima"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202135937011",
       "Version": "636",
-      "Name": "rpm-build"
+      "Name": "rpm-apidocs"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202135937012",
       "Version": "636",
-      "Name": "rpm"
+      "Name": "rpm-build-libs"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202135937013",
       "Version": "636",
-      "Name": "rpm-devel"
+      "Name": "rpm-libs"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202135937014",
       "Version": "636",
-      "Name": "rpm-plugin-selinux"
+      "Name": "rpm-build"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202135937015",
       "Version": "636",
-      "Name": "rpm-plugin-systemd-inhibit"
+      "Name": "rpm-plugin-selinux"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20213618001",
