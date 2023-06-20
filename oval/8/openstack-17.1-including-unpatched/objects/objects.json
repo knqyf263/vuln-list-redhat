@@ -1,0 +1,100 @@
+{
+  "RpminfoObjects": [
+    {
+      "ID": "oval:com.redhat.cve:obj:20122094001",
+      "Version": "636",
+      "Name": "python-django-horizon"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20123542001",
+      "Version": "636",
+      "Name": "openstack-keystone"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20124406001",
+      "Version": "636",
+      "Name": "openstack-swift"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20124520001",
+      "Version": "636",
+      "Name": "Django"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20124573001",
+      "Version": "636",
+      "Name": "openstack-glance"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20125476001",
+      "Version": "636",
+      "Name": "openstack-quantum"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20130208001",
+      "Version": "636",
+      "Name": "openstack-nova"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20131664001",
+      "Version": "636",
+      "Name": "Django14"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20131793001",
+      "Version": "636",
+      "Name": "doc-Getting_Started_Guide"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20131793002",
+      "Version": "636",
+      "Name": "openstack-utils"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20132037001",
+      "Version": "636",
+      "Name": "python-httplib2"
+    },
+    {
+      "ID": "oval:com.redhat.unaffected:obj:20132166001",
+      "Version": "635",
+      "Name": "python3-keystoneclient"
+    }
+  ],
+  "RpmverifyfileObjects": [
+    {
+      "ID": "oval:com.redhat.cve:obj:20122094002",
+      "AttrVersion": "636",
+      "Behaviors": {
+        "Noconfigfiles": "true",
+        "Noghostfiles": "true",
+        "Nogroup": "true",
+        "Nolinkto": "true",
+        "Nomd5": "true",
+        "Nomode": "true",
+        "Nomtime": "true",
+        "Nordev": "true",
+        "Nosize": "true",
+        "Nouser": "true"
+      },
+      "Filepath": {
+        "Text": "/etc/redhat-release"
+      },
+      "Name": {
+        "Operation": "pattern match"
+      },
+      "Version": {
+        "Operation": "pattern match"
+      },
+      "Epoch": {
+        "Operation": "pattern match"
+      },
+      "Arch": {
+        "Operation": "pattern match"
+      },
+      "Release": {
+        "Operation": "pattern match"
+      }
+    }
+  ]
+}
