@@ -30538,7 +30538,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "open-vm-tools is installed",
+      "Comment": "open-vm-tools-test is installed",
       "ID": "oval:com.redhat.cve:tst:202320867001",
       "Version": "636",
       "Object": {
@@ -30548,7 +30548,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "open-vm-tools is signed with Red Hat redhatrelease2 key",
+      "Comment": "open-vm-tools-test is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.cve:tst:202320867002",
       "Version": "636",
       "Object": {
@@ -30560,7 +30560,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "open-vm-tools-sdmp is installed",
+      "Comment": "open-vm-tools is installed",
       "ID": "oval:com.redhat.cve:tst:202320867003",
       "Version": "636",
       "Object": {
@@ -30570,7 +30570,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "open-vm-tools-sdmp is signed with Red Hat redhatrelease2 key",
+      "Comment": "open-vm-tools is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.cve:tst:202320867004",
       "Version": "636",
       "Object": {
@@ -30582,7 +30582,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "open-vm-tools-desktop is installed",
+      "Comment": "open-vm-tools-sdmp is installed",
       "ID": "oval:com.redhat.cve:tst:202320867005",
       "Version": "636",
       "Object": {
@@ -30592,7 +30592,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "open-vm-tools-desktop is signed with Red Hat redhatrelease2 key",
+      "Comment": "open-vm-tools-sdmp is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.cve:tst:202320867006",
       "Version": "636",
       "Object": {
@@ -30604,7 +30604,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "open-vm-tools-test is installed",
+      "Comment": "open-vm-tools-desktop is installed",
       "ID": "oval:com.redhat.cve:tst:202320867007",
       "Version": "636",
       "Object": {
@@ -30614,7 +30614,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "open-vm-tools-test is signed with Red Hat redhatrelease2 key",
+      "Comment": "open-vm-tools-desktop is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.cve:tst:202320867008",
       "Version": "636",
       "Object": {
@@ -39955,7 +39955,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20226358001",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202320867001"
+        "ObjectRef": "oval:com.redhat.cve:obj:202320867002"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20226358001"
@@ -39967,7 +39967,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20226358003",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202320867003"
+        "ObjectRef": "oval:com.redhat.cve:obj:202320867004"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20226358001"
@@ -39979,7 +39979,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20226358005",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202320867002"
+        "ObjectRef": "oval:com.redhat.cve:obj:202320867003"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20226358003"
@@ -39991,7 +39991,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20226358007",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202320867004"
+        "ObjectRef": "oval:com.redhat.cve:obj:202320867001"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20226358001"
@@ -71515,7 +71515,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202320867003"
+        "ObjectRef": "oval:com.redhat.cve:obj:202320867004"
       },
       "State": {}
     },
@@ -71526,7 +71526,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202320867001"
+        "ObjectRef": "oval:com.redhat.cve:obj:202320867002"
       },
       "State": {}
     },
@@ -71537,7 +71537,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202320867004"
+        "ObjectRef": "oval:com.redhat.cve:obj:202320867001"
       },
       "State": {}
     },
@@ -71548,7 +71548,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202320867002"
+        "ObjectRef": "oval:com.redhat.cve:obj:202320867003"
       },
       "State": {}
     },
@@ -79889,6 +79889,17 @@
       "CheckExistence": "none_exist",
       "Object": {
         "ObjectRef": "oval:com.redhat.unaffected:obj:201925085008"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "firefox-x11 is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:201925136004",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20214231004"
       },
       "State": {}
     },
@@ -97576,17 +97587,6 @@
       "CheckExistence": "none_exist",
       "Object": {
         "ObjectRef": "oval:com.redhat.unaffected:obj:20213798008"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "firefox-x11 is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:20213800002",
-      "Version": "635",
-      "CheckExistence": "none_exist",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20214231004"
       },
       "State": {}
     },
