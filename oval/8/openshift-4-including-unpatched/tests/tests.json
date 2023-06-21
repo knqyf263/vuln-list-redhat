@@ -1256,50 +1256,6 @@
     },
     {
       "Check": "at least one",
-      "Comment": "kernel-rt is installed",
-      "ID": "oval:com.redhat.cve:tst:202335824001",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202335824001"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "kernel-rt is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202335824002",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202335824001"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:201714623001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "kernel is installed",
-      "ID": "oval:com.redhat.cve:tst:202335824003",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202335824002"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "kernel is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202335824004",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202335824002"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:201714623001"
-      }
-    },
-    {
-      "Check": "at least one",
       "Comment": "podman is earlier than 3:4.4.1-3.rhaos4.13.el8",
       "ID": "oval:com.redhat.rhsa:tst:20231325001",
       "Version": "642",
@@ -2315,28 +2271,6 @@
       "CheckExistence": "none_exist",
       "Object": {
         "ObjectRef": "oval:com.redhat.unaffected:obj:20231668002"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "kernel-rt is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202335826002",
-      "Version": "635",
-      "CheckExistence": "none_exist",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202335824001"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "kernel is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202335826004",
-      "Version": "635",
-      "CheckExistence": "none_exist",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202335824002"
       },
       "State": {}
     }

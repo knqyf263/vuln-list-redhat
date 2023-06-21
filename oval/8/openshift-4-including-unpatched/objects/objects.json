@@ -286,16 +286,6 @@
       "Name": "ovn22.09"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202335824001",
-      "Version": "636",
-      "Name": "kernel-rt"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202335824002",
-      "Version": "636",
-      "Name": "kernel"
-    },
-    {
       "ID": "oval:com.redhat.rhsa:obj:20231325008",
       "Version": "642",
       "Name": "haproxy22"

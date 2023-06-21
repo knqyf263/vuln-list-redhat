@@ -4120,6 +4120,28 @@
         "ObjectRef": "oval:com.redhat.cve:obj:202028851002"
       },
       "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "skopeo is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:202324535002",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202120291001"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "containers-common is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:202324535006",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202120291003"
+      },
+      "State": {}
     }
   ],
   "RpmverifyfileTests": [
