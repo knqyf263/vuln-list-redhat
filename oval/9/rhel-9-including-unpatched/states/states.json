@@ -8556,6 +8556,36 @@
         "Operation": "less than"
       },
       "SignatureKeyID": {}
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:ste:20233705001",
+      "Version": "636",
+      "Arch": {
+        "Text": "ppc64le|x86_64",
+        "Datatype": "string",
+        "Operation": "pattern match"
+      },
+      "Evr": {
+        "Text": "0:1-1.el9_2",
+        "Datatype": "evr_string",
+        "Operation": "less than"
+      },
+      "SignatureKeyID": {}
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:ste:20233705002",
+      "Version": "636",
+      "Arch": {
+        "Text": "ppc64le|x86_64",
+        "Datatype": "string",
+        "Operation": "pattern match"
+      },
+      "Evr": {
+        "Text": "0:5.14.0-284.11.1.el9_2",
+        "Datatype": "evr_string",
+        "Operation": "equals"
+      },
+      "SignatureKeyID": {}
     }
   ],
   "RpmverifyfileStates": [
@@ -8775,6 +8805,14 @@
       }
     },
     {
+      "ID": "oval:com.redhat.rhsa:ste:20233705005",
+      "Version": "636",
+      "Text": {
+        "Text": "\\(5.14.0-284.11.1.el9_2",
+        "Operation": "pattern match"
+      }
+    },
+    {
       "ID": "oval:com.redhat.unaffected:ste:201918874001",
       "Version": "635",
       "Text": {
@@ -8933,6 +8971,14 @@
       "Version": "640",
       "OsRelease": {
         "Text": "([0-4]\\.\\d+\\.\\d+-)|(5\\.([0-9]|1[0-3])\\.\\d+-)|(5\\.14\\.0-([0-9]{1,2}|1[0-9]{2}|2[0-7][0-9]|28[0-3])\\.)|(5\\.14\\.0-284\\.[^\\.]*[a-zA-Z])|(5\\.14\\.0-284\\.([0-9]|10)\\.)|(5\\.14\\.0-284\\.11\\.[^\\.]*[a-zA-Z])|(5\\.14\\.0-284\\.11\\.0\\.)",
+        "Operation": "pattern match"
+      }
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:ste:20233705004",
+      "Version": "636",
+      "OsRelease": {
+        "Text": "5.14.0-284.11.1.el9_2",
         "Operation": "pattern match"
       }
     }

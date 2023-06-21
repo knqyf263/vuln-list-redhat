@@ -51267,6 +51267,53 @@
       "State": {
         "StateRef": "oval:com.redhat.rhba:ste:20225749002"
       }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "kernel version equals 0:5.14.0-284.11.1.el9_2",
+      "ID": "oval:com.redhat.rhsa:tst:20233705001",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20225214001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233705002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "kpatch-patch not installed for 0:5.14.0-284.11.1.el9_2",
+      "ID": "oval:com.redhat.rhsa:tst:20233705003",
+      "Version": "636",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20233705002"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "kpatch-patch-5_14_0-284_11_1 is earlier than 0:1-1.el9_2",
+      "ID": "oval:com.redhat.rhsa:tst:20233705004",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20233705002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233705001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "kpatch-patch-5_14_0-284_11_1 is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20233705005",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20233705002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20225749002"
+      }
     }
   ],
   "RpmverifyfileTests": [
@@ -51775,6 +51822,18 @@
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20232148004"
       }
+    },
+    {
+      "Check": "all",
+      "Comment": "kernel version 0:5.14.0-284.11.1.el9_2 is set to boot up on next boot",
+      "ID": "oval:com.redhat.rhsa:tst:20233705007",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20233705005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233705005"
+      }
     }
   ],
   "UnameTests": [
@@ -51992,6 +52051,18 @@
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20232148003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "kernel version 0:5.14.0-284.11.1.el9_2 is currently running",
+      "ID": "oval:com.redhat.rhsa:tst:20233705006",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20225214003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233705004"
       }
     }
   ]

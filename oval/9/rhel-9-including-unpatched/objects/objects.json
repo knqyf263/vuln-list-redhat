@@ -5883,107 +5883,107 @@
     {
       "ID": "oval:com.redhat.cve:obj:202232189001",
       "Version": "636",
-      "Name": "rsyslog-mmkubernetes"
+      "Name": "rsyslog-snmp"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202232189002",
       "Version": "636",
-      "Name": "rsyslog-crypto"
+      "Name": "rsyslog-mmaudit"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202232189003",
       "Version": "636",
-      "Name": "rsyslog-pgsql"
+      "Name": "rsyslog-openssl"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202232189004",
       "Version": "636",
-      "Name": "rsyslog-mmfields"
+      "Name": "rsyslog-mmsnmptrapd"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202232189005",
       "Version": "636",
-      "Name": "rsyslog-snmp"
+      "Name": "rsyslog-gnutls"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202232189011",
-      "Version": "636",
-      "Name": "rsyslog-mmsnmptrapd"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202232189013",
-      "Version": "636",
-      "Name": "rsyslog-udpspoof"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202232189015",
-      "Version": "636",
-      "Name": "rsyslog-gssapi"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202232189017",
-      "Version": "636",
-      "Name": "rsyslog-openssl"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202232189018",
-      "Version": "636",
-      "Name": "rsyslog-mmaudit"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202232189019",
+      "ID": "oval:com.redhat.cve:obj:202232189006",
       "Version": "636",
       "Name": "rsyslog-omamqp1"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202232189023",
-      "Version": "636",
-      "Name": "rsyslog-kafka"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202232189030",
-      "Version": "636",
-      "Name": "rsyslog"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202232189032",
-      "Version": "636",
-      "Name": "rsyslog-relp"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202232189033",
-      "Version": "636",
-      "Name": "rsyslog-logrotate"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202232189035",
-      "Version": "636",
-      "Name": "rsyslog-elasticsearch"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202232189036",
-      "Version": "636",
-      "Name": "rsyslog-gnutls"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202232189037",
-      "Version": "636",
-      "Name": "rsyslog-mysql"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202232189039",
+      "ID": "oval:com.redhat.cve:obj:202232189007",
       "Version": "636",
       "Name": "rsyslog-doc"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202232189040",
+      "ID": "oval:com.redhat.cve:obj:202232189009",
+      "Version": "636",
+      "Name": "rsyslog-mmnormalize"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202232189015",
+      "Version": "636",
+      "Name": "rsyslog-crypto"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202232189017",
+      "Version": "636",
+      "Name": "rsyslog-gssapi"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202232189018",
+      "Version": "636",
+      "Name": "rsyslog-mmfields"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202232189019",
+      "Version": "636",
+      "Name": "rsyslog-udpspoof"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202232189023",
       "Version": "636",
       "Name": "rsyslog-mmjsonparse"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202232189041",
+      "ID": "oval:com.redhat.cve:obj:202232189024",
       "Version": "636",
-      "Name": "rsyslog-mmnormalize"
+      "Name": "rsyslog-elasticsearch"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202232189026",
+      "Version": "636",
+      "Name": "rsyslog-kafka"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202232189027",
+      "Version": "636",
+      "Name": "rsyslog-logrotate"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202232189029",
+      "Version": "636",
+      "Name": "rsyslog"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202232189034",
+      "Version": "636",
+      "Name": "rsyslog-relp"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202232189035",
+      "Version": "636",
+      "Name": "rsyslog-mmkubernetes"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202232189036",
+      "Version": "636",
+      "Name": "rsyslog-mysql"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202232189037",
+      "Version": "636",
+      "Name": "rsyslog-pgsql"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20223219001",
@@ -6511,7 +6511,7 @@
       "Name": "squid-debugsource"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202241715001",
+      "ID": "oval:com.redhat.cve:obj:202241715002",
       "Version": "636",
       "Name": "oci-seccomp-bpf-hook"
     },
@@ -6868,22 +6868,22 @@
     {
       "ID": "oval:com.redhat.cve:obj:20230464003",
       "Version": "636",
-      "Name": "openssl-devel"
+      "Name": "openssl-libs"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20230464004",
       "Version": "636",
-      "Name": "openssl-libs"
+      "Name": "openssl"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:20230464007",
+      "ID": "oval:com.redhat.cve:obj:20230464006",
       "Version": "636",
-      "Name": "openssl"
+      "Name": "openssl-perl"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20230464008",
       "Version": "636",
-      "Name": "openssl-perl"
+      "Name": "openssl-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20230664001",
@@ -6943,22 +6943,22 @@
     {
       "ID": "oval:com.redhat.cve:obj:202320867001",
       "Version": "636",
-      "Name": "open-vm-tools-test"
+      "Name": "open-vm-tools"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202320867002",
       "Version": "636",
-      "Name": "open-vm-tools"
+      "Name": "open-vm-tools-sdmp"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202320867003",
       "Version": "636",
-      "Name": "open-vm-tools-sdmp"
+      "Name": "open-vm-tools-desktop"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202320867004",
       "Version": "636",
-      "Name": "open-vm-tools-desktop"
+      "Name": "open-vm-tools-test"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202321911001",
@@ -7043,72 +7043,72 @@
     {
       "ID": "oval:com.redhat.cve:obj:20232454001",
       "Version": "636",
-      "Name": "postgresql-server-devel"
+      "Name": "postgresql-private-libs"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20232454002",
       "Version": "636",
-      "Name": "postgresql-private-devel"
+      "Name": "postgresql-server-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20232454003",
       "Version": "636",
-      "Name": "postgresql-pltcl"
+      "Name": "postgresql-docs"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20232454004",
       "Version": "636",
-      "Name": "postgresql-plpython3"
+      "Name": "postgresql-test"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20232454005",
       "Version": "636",
-      "Name": "postgresql-private-libs"
+      "Name": "postgresql-contrib"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20232454006",
       "Version": "636",
-      "Name": "postgresql-plperl"
+      "Name": "postgresql-pltcl"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20232454007",
       "Version": "636",
-      "Name": "postgresql-test"
+      "Name": "postgresql-server"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20232454008",
       "Version": "636",
-      "Name": "postgresql-upgrade"
+      "Name": "postgresql-plpython3"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20232454009",
       "Version": "636",
-      "Name": "postgresql-upgrade-devel"
+      "Name": "postgresql"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20232454010",
       "Version": "636",
-      "Name": "postgresql"
+      "Name": "postgresql-plperl"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20232454011",
       "Version": "636",
-      "Name": "postgresql-contrib"
+      "Name": "postgresql-upgrade"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20232454012",
       "Version": "636",
-      "Name": "postgresql-static"
+      "Name": "postgresql-upgrade-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20232454013",
       "Version": "636",
-      "Name": "postgresql-docs"
+      "Name": "postgresql-static"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20232454014",
       "Version": "636",
-      "Name": "postgresql-server"
+      "Name": "postgresql-private-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202325193001",
@@ -7146,17 +7146,17 @@
       "Name": "python3-configobj"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:20232650004",
-      "Version": "636",
-      "Name": "edk2-tools"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20232650011",
+      "ID": "oval:com.redhat.cve:obj:20232650002",
       "Version": "636",
       "Name": "edk2-tools-doc"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:20232650012",
+      "ID": "oval:com.redhat.cve:obj:20232650010",
+      "Version": "636",
+      "Name": "edk2-tools"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20232650013",
       "Version": "636",
       "Name": "edk2"
     },
@@ -7168,127 +7168,127 @@
     {
       "ID": "oval:com.redhat.cve:obj:20232700001",
       "Version": "636",
-      "Name": "libvirt-daemon-driver-storage-iscsi"
+      "Name": "libvirt-daemon-driver-secret"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20232700002",
       "Version": "636",
-      "Name": "libvirt-daemon-driver-network"
+      "Name": "libvirt-lock-sanlock"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20232700003",
       "Version": "636",
-      "Name": "libvirt-nss"
+      "Name": "libvirt-client"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20232700004",
       "Version": "636",
-      "Name": "libvirt-daemon-driver-storage-mpath"
+      "Name": "libvirt-daemon-driver-nodedev"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20232700005",
       "Version": "636",
-      "Name": "libvirt-libs"
+      "Name": "libvirt-daemon-driver-storage-scsi"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20232700006",
       "Version": "636",
-      "Name": "libvirt-daemon"
+      "Name": "libvirt-daemon-driver-storage-core"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20232700007",
       "Version": "636",
-      "Name": "libvirt-devel"
+      "Name": "libvirt-libs"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20232700008",
       "Version": "636",
-      "Name": "libvirt-daemon-kvm"
+      "Name": "libvirt-daemon-driver-storage-rbd"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20232700009",
       "Version": "636",
-      "Name": "libvirt-daemon-config-network"
+      "Name": "libvirt-daemon-driver-storage"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20232700010",
       "Version": "636",
-      "Name": "libvirt-daemon-driver-secret"
+      "Name": "libvirt"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20232700011",
       "Version": "636",
-      "Name": "libvirt-daemon-driver-storage-rbd"
+      "Name": "libvirt-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20232700012",
       "Version": "636",
-      "Name": "libvirt-docs"
+      "Name": "libvirt-daemon-kvm"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20232700013",
       "Version": "636",
-      "Name": "libvirt-daemon-driver-storage-scsi"
+      "Name": "libvirt-daemon-driver-nwfilter"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20232700014",
       "Version": "636",
-      "Name": "libvirt-daemon-config-nwfilter"
+      "Name": "libvirt-daemon-driver-storage-disk"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20232700015",
       "Version": "636",
-      "Name": "libvirt-daemon-driver-storage-logical"
+      "Name": "libvirt-daemon-driver-network"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20232700016",
       "Version": "636",
-      "Name": "libvirt-lock-sanlock"
+      "Name": "libvirt-daemon"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20232700017",
       "Version": "636",
-      "Name": "libvirt-daemon-driver-storage"
+      "Name": "libvirt-daemon-config-nwfilter"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20232700018",
       "Version": "636",
-      "Name": "libvirt-client"
+      "Name": "libvirt-daemon-driver-interface"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20232700019",
       "Version": "636",
-      "Name": "libvirt-daemon-driver-nwfilter"
+      "Name": "libvirt-nss"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20232700020",
       "Version": "636",
-      "Name": "libvirt-daemon-driver-storage-disk"
+      "Name": "libvirt-docs"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20232700021",
       "Version": "636",
-      "Name": "libvirt-daemon-driver-interface"
+      "Name": "libvirt-daemon-driver-storage-mpath"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20232700022",
       "Version": "636",
-      "Name": "libvirt-daemon-driver-storage-core"
+      "Name": "libvirt-daemon-driver-qemu"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20232700023",
       "Version": "636",
-      "Name": "libvirt"
+      "Name": "libvirt-daemon-config-network"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20232700024",
       "Version": "636",
-      "Name": "libvirt-daemon-driver-nodedev"
+      "Name": "libvirt-daemon-driver-storage-iscsi"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20232700025",
       "Version": "636",
-      "Name": "libvirt-daemon-driver-qemu"
+      "Name": "libvirt-daemon-driver-storage-logical"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202327043002",
@@ -9304,6 +9304,11 @@
       "ID": "oval:com.redhat.rhsa:obj:20233423003",
       "Version": "636",
       "Name": "cups-filters-libs"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20233705002",
+      "Version": "636",
+      "Name": "kpatch-patch-5_14_0-284_11_1"
     },
     {
       "ID": "oval:com.redhat.unaffected:obj:20020059002",
@@ -14332,6 +14337,22 @@
     {
       "ID": "oval:com.redhat.rhsa:obj:20232458051",
       "Version": "644",
+      "Filepath": {
+        "Text": "/boot/grub2/grub.cfg",
+        "Datatype": "string"
+      },
+      "Pattern": {
+        "Text": "^menuentry.*",
+        "Operation": "pattern match"
+      },
+      "Instance": {
+        "Datatype": "int",
+        "VarRef": "oval:com.redhat.rhsa:var:20225214001"
+      }
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20233705005",
+      "Version": "636",
       "Filepath": {
         "Text": "/boot/grub2/grub.cfg",
         "Datatype": "string"

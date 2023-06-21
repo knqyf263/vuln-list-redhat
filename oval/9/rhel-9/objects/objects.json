@@ -7354,6 +7354,11 @@
       "ID": "oval:com.redhat.rhsa:obj:20233661371",
       "Version": "637",
       "Name": "texlive-zref"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20233705002",
+      "Version": "636",
+      "Name": "kpatch-patch-5_14_0-284_11_1"
     }
   ],
   "RpmverifyfileObjects": [
@@ -7860,6 +7865,22 @@
     {
       "ID": "oval:com.redhat.rhsa:obj:20232458051",
       "Version": "644",
+      "Filepath": {
+        "Text": "/boot/grub2/grub.cfg",
+        "Datatype": "string"
+      },
+      "Pattern": {
+        "Text": "^menuentry.*",
+        "Operation": "pattern match"
+      },
+      "Instance": {
+        "Datatype": "int",
+        "VarRef": "oval:com.redhat.rhsa:var:20225214001"
+      }
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20233705005",
+      "Version": "636",
       "Filepath": {
         "Text": "/boot/grub2/grub.cfg",
         "Datatype": "string"
