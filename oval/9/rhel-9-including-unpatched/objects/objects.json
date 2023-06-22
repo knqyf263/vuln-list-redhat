@@ -4651,11 +4651,6 @@
       "Name": "libwayland-client"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:20213807003",
-      "Version": "636",
-      "Name": "nodejs-debugsource"
-    },
-    {
       "ID": "oval:com.redhat.cve:obj:20213826002",
       "Version": "636",
       "Name": "gdb-doc"
@@ -6861,26 +6856,6 @@
       "Name": "thunderbird-flatpak-container"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:20230464003",
-      "Version": "636",
-      "Name": "openssl-libs"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20230464004",
-      "Version": "636",
-      "Name": "openssl"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20230464006",
-      "Version": "636",
-      "Name": "openssl-perl"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20230464008",
-      "Version": "636",
-      "Name": "openssl-devel"
-    },
-    {
       "ID": "oval:com.redhat.cve:obj:20230664001",
       "Version": "636",
       "Name": "virtio-win"
@@ -7143,15 +7118,15 @@
     {
       "ID": "oval:com.redhat.cve:obj:20232650002",
       "Version": "636",
-      "Name": "edk2-tools-doc"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20232650010",
-      "Version": "636",
       "Name": "edk2-tools"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:20232650013",
+      "ID": "oval:com.redhat.cve:obj:20232650005",
+      "Version": "636",
+      "Name": "edk2-tools-doc"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20232650006",
       "Version": "636",
       "Name": "edk2"
     },
@@ -7824,6 +7799,26 @@
       "ID": "oval:com.redhat.rhsa:obj:20225257003",
       "Version": "635",
       "Name": "libinput-utils"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20226224001",
+      "Version": "637",
+      "Name": "openssl"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20226224002",
+      "Version": "637",
+      "Name": "openssl-devel"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20226224003",
+      "Version": "637",
+      "Name": "openssl-libs"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20226224004",
+      "Version": "637",
+      "Name": "openssl-perl"
     },
     {
       "ID": "oval:com.redhat.rhsa:obj:20226580001",
@@ -11754,6 +11749,11 @@
       "ID": "oval:com.redhat.unaffected:obj:202036325002",
       "Version": "635",
       "Name": "jansson-devel"
+    },
+    {
+      "ID": "oval:com.redhat.unaffected:obj:20207788005",
+      "Version": "635",
+      "Name": "nodejs-debugsource"
     },
     {
       "ID": "oval:com.redhat.unaffected:obj:20208025001",

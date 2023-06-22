@@ -186,7 +186,7 @@
       "Name": "ansible-runner"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:20213807012",
+      "ID": "oval:com.redhat.cve:obj:20213807005",
       "Version": "636",
       "Name": "cockpit-ceph-installer"
     },

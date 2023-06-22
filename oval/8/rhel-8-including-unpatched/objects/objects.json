@@ -10153,17 +10153,17 @@
     {
       "ID": "oval:com.redhat.cve:obj:20230464003",
       "Version": "636",
-      "Name": "openssl-static"
+      "Name": "openssl-devel"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20230464004",
       "Version": "636",
-      "Name": "openssl-libs"
+      "Name": "openssl"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20230464005",
       "Version": "636",
-      "Name": "openssl"
+      "Name": "openssl-libs"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20230464008",
@@ -10171,9 +10171,9 @@
       "Name": "openssl-perl"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:20230464010",
+      "ID": "oval:com.redhat.cve:obj:20230464009",
       "Version": "636",
-      "Name": "openssl-devel"
+      "Name": "openssl-static"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20230664001",
