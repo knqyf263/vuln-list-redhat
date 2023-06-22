@@ -1,14 +1,14 @@
 {
   "RpminfoObjects": [
     {
-      "ID": "oval:com.redhat.cve:obj:20232828001",
+      "ID": "oval:com.redhat.cve:obj:20232829001",
       "Version": "636",
       "Name": "bind"
     }
   ],
   "RpmverifyfileObjects": [
     {
-      "ID": "oval:com.redhat.cve:obj:20232828002",
+      "ID": "oval:com.redhat.cve:obj:20232829002",
       "AttrVersion": "636",
       "Behaviors": {
         "Noconfigfiles": "true",

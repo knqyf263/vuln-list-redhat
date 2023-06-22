@@ -156,7 +156,7 @@
       "Name": "python3-django"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:20232828001",
+      "ID": "oval:com.redhat.cve:obj:20232829001",
       "Version": "636",
       "Name": "bind"
     },

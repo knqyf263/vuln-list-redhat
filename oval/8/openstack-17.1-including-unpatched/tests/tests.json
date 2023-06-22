@@ -3,23 +3,23 @@
     {
       "Check": "at least one",
       "Comment": "bind is installed",
-      "ID": "oval:com.redhat.cve:tst:20232828001",
+      "ID": "oval:com.redhat.cve:tst:20232829001",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20232828001"
+        "ObjectRef": "oval:com.redhat.cve:obj:20232829001"
       },
       "State": {}
     },
     {
       "Check": "at least one",
       "Comment": "bind is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:20232828002",
+      "ID": "oval:com.redhat.cve:tst:20232829002",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20232828001"
+        "ObjectRef": "oval:com.redhat.cve:obj:20232829001"
       },
       "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20232828001"
+        "StateRef": "oval:com.redhat.cve:ste:20232829001"
       }
     }
   ],
@@ -27,25 +27,25 @@
     {
       "Check": "at least one",
       "Comment": "Red Hat Enterprise Linux 9 is installed",
-      "ID": "oval:com.redhat.cve:tst:20232828003",
+      "ID": "oval:com.redhat.cve:tst:20232829003",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20232828002"
+        "ObjectRef": "oval:com.redhat.cve:obj:20232829002"
       },
       "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20232828002"
+        "StateRef": "oval:com.redhat.cve:ste:20232829002"
       }
     },
     {
       "Check": "none satisfy",
       "Comment": "Red Hat Enterprise Linux must be installed",
-      "ID": "oval:com.redhat.cve:tst:20232828004",
+      "ID": "oval:com.redhat.cve:tst:20232829004",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:20232828002"
+        "ObjectRef": "oval:com.redhat.cve:obj:20232829002"
       },
       "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20232828003"
+        "StateRef": "oval:com.redhat.cve:ste:20232829003"
       }
     }
   ]
