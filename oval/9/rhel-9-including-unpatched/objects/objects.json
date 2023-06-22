@@ -6636,11 +6636,6 @@
       "Name": "xterm-resize"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202246663001",
-      "Version": "636",
-      "Name": "less"
-    },
-    {
       "ID": "oval:com.redhat.cve:obj:202247016001",
       "Version": "636",
       "Name": "tmux"
@@ -6943,22 +6938,22 @@
     {
       "ID": "oval:com.redhat.cve:obj:202320867001",
       "Version": "636",
-      "Name": "open-vm-tools"
+      "Name": "open-vm-tools-desktop"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202320867002",
       "Version": "636",
-      "Name": "open-vm-tools-sdmp"
+      "Name": "open-vm-tools"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202320867003",
       "Version": "636",
-      "Name": "open-vm-tools-desktop"
+      "Name": "open-vm-tools-test"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202320867004",
       "Version": "636",
-      "Name": "open-vm-tools-test"
+      "Name": "open-vm-tools-sdmp"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202321911001",
@@ -7166,131 +7161,6 @@
       "Name": "libyang"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:20232700001",
-      "Version": "636",
-      "Name": "libvirt-daemon-driver-secret"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20232700002",
-      "Version": "636",
-      "Name": "libvirt-lock-sanlock"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20232700003",
-      "Version": "636",
-      "Name": "libvirt-client"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20232700004",
-      "Version": "636",
-      "Name": "libvirt-daemon-driver-nodedev"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20232700005",
-      "Version": "636",
-      "Name": "libvirt-daemon-driver-storage-scsi"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20232700006",
-      "Version": "636",
-      "Name": "libvirt-daemon-driver-storage-core"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20232700007",
-      "Version": "636",
-      "Name": "libvirt-libs"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20232700008",
-      "Version": "636",
-      "Name": "libvirt-daemon-driver-storage-rbd"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20232700009",
-      "Version": "636",
-      "Name": "libvirt-daemon-driver-storage"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20232700010",
-      "Version": "636",
-      "Name": "libvirt"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20232700011",
-      "Version": "636",
-      "Name": "libvirt-devel"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20232700012",
-      "Version": "636",
-      "Name": "libvirt-daemon-kvm"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20232700013",
-      "Version": "636",
-      "Name": "libvirt-daemon-driver-nwfilter"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20232700014",
-      "Version": "636",
-      "Name": "libvirt-daemon-driver-storage-disk"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20232700015",
-      "Version": "636",
-      "Name": "libvirt-daemon-driver-network"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20232700016",
-      "Version": "636",
-      "Name": "libvirt-daemon"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20232700017",
-      "Version": "636",
-      "Name": "libvirt-daemon-config-nwfilter"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20232700018",
-      "Version": "636",
-      "Name": "libvirt-daemon-driver-interface"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20232700019",
-      "Version": "636",
-      "Name": "libvirt-nss"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20232700020",
-      "Version": "636",
-      "Name": "libvirt-docs"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20232700021",
-      "Version": "636",
-      "Name": "libvirt-daemon-driver-storage-mpath"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20232700022",
-      "Version": "636",
-      "Name": "libvirt-daemon-driver-qemu"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20232700023",
-      "Version": "636",
-      "Name": "libvirt-daemon-config-network"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20232700024",
-      "Version": "636",
-      "Name": "libvirt-daemon-driver-storage-iscsi"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:20232700025",
-      "Version": "636",
-      "Name": "libvirt-daemon-driver-storage-logical"
-    },
-    {
       "ID": "oval:com.redhat.cve:obj:202327043002",
       "Version": "636",
       "Name": "python3.11"
@@ -7454,6 +7324,56 @@
       "ID": "oval:com.redhat.cve:obj:202328100006",
       "Version": "636",
       "Name": "flatpak-selinux"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20232828001",
+      "Version": "636",
+      "Name": "bind"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20232828002",
+      "Version": "636",
+      "Name": "bind-utils"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20232828003",
+      "Version": "636",
+      "Name": "bind-chroot"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20232828004",
+      "Version": "636",
+      "Name": "bind-dnssec-doc"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20232828005",
+      "Version": "636",
+      "Name": "bind-devel"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20232828006",
+      "Version": "636",
+      "Name": "bind-libs"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20232828007",
+      "Version": "636",
+      "Name": "python3-bind"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20232828008",
+      "Version": "636",
+      "Name": "bind-license"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20232828009",
+      "Version": "636",
+      "Name": "bind-doc"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20232828010",
+      "Version": "636",
+      "Name": "bind-dnssec-utils"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202328370001",
@@ -7966,51 +7886,6 @@
       "Name": "webkit2gtk3-jsc-devel"
     },
     {
-      "ID": "oval:com.redhat.rhsa:obj:20226763001",
-      "Version": "635",
-      "Name": "bind"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20226763002",
-      "Version": "635",
-      "Name": "bind-chroot"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20226763003",
-      "Version": "635",
-      "Name": "bind-devel"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20226763004",
-      "Version": "635",
-      "Name": "bind-dnssec-doc"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20226763005",
-      "Version": "635",
-      "Name": "bind-dnssec-utils"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20226763006",
-      "Version": "635",
-      "Name": "bind-libs"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20226763007",
-      "Version": "635",
-      "Name": "bind-license"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20226763008",
-      "Version": "635",
-      "Name": "bind-utils"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20226763009",
-      "Version": "635",
-      "Name": "python3-bind"
-    },
-    {
       "ID": "oval:com.redhat.rhsa:obj:20226854001",
       "Version": "636",
       "Name": "gnutls"
@@ -8291,6 +8166,131 @@
       "Name": "speex-devel"
     },
     {
+      "ID": "oval:com.redhat.rhsa:obj:20228003001",
+      "Version": "636",
+      "Name": "libvirt"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20228003002",
+      "Version": "636",
+      "Name": "libvirt-client"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20228003003",
+      "Version": "636",
+      "Name": "libvirt-daemon"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20228003004",
+      "Version": "636",
+      "Name": "libvirt-daemon-config-network"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20228003005",
+      "Version": "636",
+      "Name": "libvirt-daemon-config-nwfilter"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20228003006",
+      "Version": "636",
+      "Name": "libvirt-daemon-driver-interface"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20228003007",
+      "Version": "636",
+      "Name": "libvirt-daemon-driver-network"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20228003008",
+      "Version": "636",
+      "Name": "libvirt-daemon-driver-nodedev"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20228003009",
+      "Version": "636",
+      "Name": "libvirt-daemon-driver-nwfilter"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20228003010",
+      "Version": "636",
+      "Name": "libvirt-daemon-driver-qemu"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20228003011",
+      "Version": "636",
+      "Name": "libvirt-daemon-driver-secret"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20228003012",
+      "Version": "636",
+      "Name": "libvirt-daemon-driver-storage"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20228003013",
+      "Version": "636",
+      "Name": "libvirt-daemon-driver-storage-core"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20228003014",
+      "Version": "636",
+      "Name": "libvirt-daemon-driver-storage-disk"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20228003015",
+      "Version": "636",
+      "Name": "libvirt-daemon-driver-storage-iscsi"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20228003016",
+      "Version": "636",
+      "Name": "libvirt-daemon-driver-storage-logical"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20228003017",
+      "Version": "636",
+      "Name": "libvirt-daemon-driver-storage-mpath"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20228003018",
+      "Version": "636",
+      "Name": "libvirt-daemon-driver-storage-rbd"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20228003019",
+      "Version": "636",
+      "Name": "libvirt-daemon-driver-storage-scsi"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20228003020",
+      "Version": "636",
+      "Name": "libvirt-daemon-kvm"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20228003021",
+      "Version": "636",
+      "Name": "libvirt-devel"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20228003022",
+      "Version": "636",
+      "Name": "libvirt-docs"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20228003023",
+      "Version": "636",
+      "Name": "libvirt-libs"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20228003024",
+      "Version": "636",
+      "Name": "libvirt-lock-sanlock"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20228003025",
+      "Version": "636",
+      "Name": "libvirt-nss"
+    },
+    {
       "ID": "oval:com.redhat.rhsa:obj:20228011001",
       "Version": "636",
       "Name": "fribidi"
@@ -8319,11 +8319,6 @@
       "ID": "oval:com.redhat.rhsa:obj:20228062004",
       "Version": "637",
       "Name": "unbound-libs"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20228068006",
-      "Version": "636",
-      "Name": "bind-doc"
     },
     {
       "ID": "oval:com.redhat.rhsa:obj:20228078001",
@@ -9309,6 +9304,16 @@
       "ID": "oval:com.redhat.rhsa:obj:20233705002",
       "Version": "636",
       "Name": "kpatch-patch-5_14_0-284_11_1"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20233715003",
+      "Version": "635",
+      "Name": "libvirt-client-qemu"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20233725001",
+      "Version": "635",
+      "Name": "less"
     },
     {
       "ID": "oval:com.redhat.unaffected:obj:20020059002",
@@ -14353,6 +14358,38 @@
     {
       "ID": "oval:com.redhat.rhsa:obj:20233705005",
       "Version": "636",
+      "Filepath": {
+        "Text": "/boot/grub2/grub.cfg",
+        "Datatype": "string"
+      },
+      "Pattern": {
+        "Text": "^menuentry.*",
+        "Operation": "pattern match"
+      },
+      "Instance": {
+        "Datatype": "int",
+        "VarRef": "oval:com.redhat.rhsa:var:20225214001"
+      }
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20233708017",
+      "Version": "642",
+      "Filepath": {
+        "Text": "/boot/grub2/grub.cfg",
+        "Datatype": "string"
+      },
+      "Pattern": {
+        "Text": "^menuentry.*",
+        "Operation": "pattern match"
+      },
+      "Instance": {
+        "Datatype": "int",
+        "VarRef": "oval:com.redhat.rhsa:var:20225214001"
+      }
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20233723048",
+      "Version": "643",
       "Filepath": {
         "Text": "/boot/grub2/grub.cfg",
         "Datatype": "string"

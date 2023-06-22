@@ -1366,7 +1366,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "ovirt-dependencies is installed",
+      "Comment": "apache-sshd is installed",
       "ID": "oval:com.redhat.cve:tst:202320860001",
       "Version": "636",
       "Object": {
@@ -1376,7 +1376,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "ovirt-dependencies is signed with Red Hat redhatrelease2 key",
+      "Comment": "apache-sshd is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.cve:tst:202320860002",
       "Version": "636",
       "Object": {
@@ -1388,7 +1388,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "apache-sshd is installed",
+      "Comment": "ovirt-dependencies is installed",
       "ID": "oval:com.redhat.cve:tst:202320860003",
       "Version": "636",
       "Object": {
@@ -1398,7 +1398,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "apache-sshd is signed with Red Hat redhatrelease2 key",
+      "Comment": "ovirt-dependencies is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.cve:tst:202320860004",
       "Version": "636",
       "Object": {

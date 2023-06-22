@@ -3431,6 +3431,18 @@
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20230074003"
       }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ovirt-dependencies is earlier than 0:4.5.3-1.el8ev",
+      "ID": "oval:com.redhat.rhsa:tst:20233771001",
+      "Version": "640",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20225555001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20233771001"
+      }
     }
   ],
   "RpmverifyfileTests": [

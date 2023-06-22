@@ -16484,6 +16484,16 @@
       "ID": "oval:com.redhat.rhsa:obj:20233145009",
       "Version": "636",
       "Name": "apr-util-sqlite"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20233741001",
+      "Version": "635",
+      "Name": "c-ares"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20233741002",
+      "Version": "635",
+      "Name": "c-ares-devel"
     }
   ],
   "RpmverifyfileObjects": [
