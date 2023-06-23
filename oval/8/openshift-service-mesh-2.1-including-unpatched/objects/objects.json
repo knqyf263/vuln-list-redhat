@@ -46,7 +46,7 @@
       "Name": "servicemesh-proxy"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202241717003",
+      "ID": "oval:com.redhat.cve:obj:202241717004",
       "Version": "636",
       "Name": "servicemesh-operator"
     },
