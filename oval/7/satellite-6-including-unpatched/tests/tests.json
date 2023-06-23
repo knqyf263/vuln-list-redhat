@@ -2378,7 +2378,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "nodejs-babel-cli is installed",
+      "Comment": "nodejs-webpack is installed",
       "ID": "oval:com.redhat.cve:tst:202238900001",
       "Version": "636",
       "Object": {
@@ -2388,7 +2388,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "nodejs-babel-cli is signed with Red Hat redhatrelease2 key",
+      "Comment": "nodejs-webpack is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.cve:tst:202238900002",
       "Version": "636",
       "Object": {
@@ -2400,7 +2400,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "nodejs-webpack is installed",
+      "Comment": "nodejs-decode-uri-component is installed",
       "ID": "oval:com.redhat.cve:tst:202238900003",
       "Version": "636",
       "Object": {
@@ -2410,7 +2410,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "nodejs-webpack is signed with Red Hat redhatrelease2 key",
+      "Comment": "nodejs-decode-uri-component is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.cve:tst:202238900004",
       "Version": "636",
       "Object": {
@@ -2422,7 +2422,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "nodejs-decode-uri-component is installed",
+      "Comment": "nodejs-babel-cli is installed",
       "ID": "oval:com.redhat.cve:tst:202238900005",
       "Version": "636",
       "Object": {
@@ -2432,7 +2432,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "nodejs-decode-uri-component is signed with Red Hat redhatrelease2 key",
+      "Comment": "nodejs-babel-cli is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.cve:tst:202238900006",
       "Version": "636",
       "Object": {
@@ -2576,7 +2576,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "yggdrasil is installed",
+      "Comment": "yggdrasil-worker-forwarder is installed",
       "ID": "oval:com.redhat.cve:tst:202241717003",
       "Version": "636",
       "Object": {
@@ -2586,7 +2586,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "yggdrasil is signed with Red Hat redhatrelease2 key",
+      "Comment": "yggdrasil-worker-forwarder is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.cve:tst:202241717004",
       "Version": "636",
       "Object": {
@@ -2598,7 +2598,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "yggdrasil-worker-forwarder is installed",
+      "Comment": "yggdrasil is installed",
       "ID": "oval:com.redhat.cve:tst:202241717005",
       "Version": "636",
       "Object": {
@@ -2608,7 +2608,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "yggdrasil-worker-forwarder is signed with Red Hat redhatrelease2 key",
+      "Comment": "yggdrasil is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.cve:tst:202241717006",
       "Version": "636",
       "Object": {
@@ -4727,7 +4727,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202241717002"
+        "ObjectRef": "oval:com.redhat.cve:obj:202241717003"
       },
       "State": {}
     },
@@ -4972,7 +4972,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202241717003"
+        "ObjectRef": "oval:com.redhat.cve:obj:202241717002"
       },
       "State": {}
     },
@@ -5120,7 +5120,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202238900002"
+        "ObjectRef": "oval:com.redhat.cve:obj:202238900001"
       },
       "State": {}
     }

@@ -543,17 +543,17 @@
     {
       "ID": "oval:com.redhat.cve:obj:202238900001",
       "Version": "636",
-      "Name": "nodejs-babel-cli"
+      "Name": "nodejs-webpack"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202238900002",
       "Version": "636",
-      "Name": "nodejs-webpack"
+      "Name": "nodejs-decode-uri-component"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202238900003",
       "Version": "636",
-      "Name": "nodejs-decode-uri-component"
+      "Name": "nodejs-babel-cli"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202240152001",
@@ -588,12 +588,12 @@
     {
       "ID": "oval:com.redhat.cve:obj:202241717002",
       "Version": "636",
-      "Name": "yggdrasil"
+      "Name": "yggdrasil-worker-forwarder"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202241717003",
       "Version": "636",
-      "Name": "yggdrasil-worker-forwarder"
+      "Name": "yggdrasil"
     },
     {
       "ID": "oval:com.redhat.cve:obj:202244566001",
