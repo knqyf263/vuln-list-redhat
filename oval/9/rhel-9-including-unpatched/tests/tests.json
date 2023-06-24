@@ -30824,7 +30824,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "open-vm-tools-sdmp is installed",
+      "Comment": "open-vm-tools-desktop is installed",
       "ID": "oval:com.redhat.cve:tst:202320867001",
       "Version": "636",
       "Object": {
@@ -30834,7 +30834,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "open-vm-tools-sdmp is signed with Red Hat redhatrelease2 key",
+      "Comment": "open-vm-tools-desktop is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.cve:tst:202320867002",
       "Version": "636",
       "Object": {
@@ -30890,7 +30890,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "open-vm-tools-desktop is installed",
+      "Comment": "open-vm-tools-sdmp is installed",
       "ID": "oval:com.redhat.cve:tst:202320867007",
       "Version": "636",
       "Object": {
@@ -30900,7 +30900,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "open-vm-tools-desktop is signed with Red Hat redhatrelease2 key",
+      "Comment": "open-vm-tools-sdmp is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.cve:tst:202320867008",
       "Version": "636",
       "Object": {
@@ -39971,7 +39971,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20226358003",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202320867004"
+        "ObjectRef": "oval:com.redhat.cve:obj:202320867001"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20226358001"
@@ -39983,7 +39983,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20226358005",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202320867001"
+        "ObjectRef": "oval:com.redhat.cve:obj:202320867004"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20226358003"
@@ -73054,7 +73054,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202320867004"
+        "ObjectRef": "oval:com.redhat.cve:obj:202320867001"
       },
       "State": {}
     },
@@ -73087,7 +73087,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202320867001"
+        "ObjectRef": "oval:com.redhat.cve:obj:202320867004"
       },
       "State": {}
     },
