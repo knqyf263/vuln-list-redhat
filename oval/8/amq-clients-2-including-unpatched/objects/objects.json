@@ -136,6 +136,11 @@
       "Name": "json-smart"
     },
     {
+      "ID": "oval:com.redhat.cve:obj:202333201001",
+      "Version": "636",
+      "Name": "bouncycastle"
+    },
+    {
       "ID": "oval:com.redhat.rhsa:obj:20200601002",
       "Version": "637",
       "Name": "rubygem-qpid_proton-doc"

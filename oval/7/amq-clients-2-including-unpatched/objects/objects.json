@@ -76,6 +76,11 @@
       "Name": "json-smart"
     },
     {
+      "ID": "oval:com.redhat.cve:obj:202333201001",
+      "Version": "636",
+      "Name": "bouncycastle"
+    },
+    {
       "ID": "oval:com.redhat.rhsa:obj:20190886001",
       "Version": "638",
       "Name": "python-qpid-proton"
