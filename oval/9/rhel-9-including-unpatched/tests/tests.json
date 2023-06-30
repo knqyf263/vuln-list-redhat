@@ -29196,21 +29196,21 @@
     },
     {
       "Check": "at least one",
-      "Comment": "pki-jackson-jaxrs-json-provider is installed",
-      "ID": "oval:com.redhat.cve:tst:202241854005",
+      "Comment": "jackson-jaxrs-providers is installed",
+      "ID": "oval:com.redhat.cve:tst:202241854001",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202241854003"
+        "ObjectRef": "oval:com.redhat.cve:obj:202241854001"
       },
       "State": {}
     },
     {
       "Check": "at least one",
-      "Comment": "pki-jackson-jaxrs-json-provider is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202241854006",
+      "Comment": "jackson-jaxrs-providers is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202241854002",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202241854003"
+        "ObjectRef": "oval:com.redhat.cve:obj:202241854001"
       },
       "State": {
         "StateRef": "oval:com.redhat.cve:ste:20052541001"
@@ -29219,20 +29219,20 @@
     {
       "Check": "at least one",
       "Comment": "pki-jackson-jaxrs-providers is installed",
-      "ID": "oval:com.redhat.cve:tst:202241854007",
+      "ID": "oval:com.redhat.cve:tst:202241854009",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202241854004"
+        "ObjectRef": "oval:com.redhat.cve:obj:202241854005"
       },
       "State": {}
     },
     {
       "Check": "at least one",
       "Comment": "pki-jackson-jaxrs-providers is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202241854008",
+      "ID": "oval:com.redhat.cve:tst:202241854010",
       "Version": "636",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202241854004"
+        "ObjectRef": "oval:com.redhat.cve:obj:202241854005"
       },
       "State": {
         "StateRef": "oval:com.redhat.cve:ste:20052541001"
@@ -29240,7 +29240,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "jackson-jaxrs-providers is installed",
+      "Comment": "pki-jackson-jaxrs-json-provider is installed",
       "ID": "oval:com.redhat.cve:tst:202241854011",
       "Version": "636",
       "Object": {
@@ -29250,7 +29250,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "jackson-jaxrs-providers is signed with Red Hat redhatrelease2 key",
+      "Comment": "pki-jackson-jaxrs-json-provider is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.cve:tst:202241854012",
       "Version": "636",
       "Object": {
@@ -103300,33 +103300,33 @@
     },
     {
       "Check": "at least one",
+      "Comment": "cockpit-composer is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:202224785008",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:201814041001"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
       "Comment": "cockpit-session-recording is installed",
-      "ID": "oval:com.redhat.unaffected:tst:202224785015",
+      "ID": "oval:com.redhat.unaffected:tst:202224785011",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.unaffected:obj:202224785008"
+        "ObjectRef": "oval:com.redhat.unaffected:obj:202224785006"
       },
       "State": {}
     },
     {
       "Check": "at least one",
       "Comment": "cockpit-session-recording is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202224785016",
+      "ID": "oval:com.redhat.unaffected:tst:202224785012",
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.unaffected:obj:202224785008"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "cockpit-composer is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202224785024",
-      "Version": "635",
-      "CheckExistence": "none_exist",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:201814041001"
+        "ObjectRef": "oval:com.redhat.unaffected:obj:202224785006"
       },
       "State": {}
     },
