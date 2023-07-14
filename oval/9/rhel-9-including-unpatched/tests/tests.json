@@ -108158,12 +108158,34 @@
     },
     {
       "Check": "at least one",
-      "Comment": "tomcat-servlet-4.0-api is not installed",
+      "Comment": "tomcat-jsp-2.3-api is not installed",
       "ID": "oval:com.redhat.unaffected:tst:202334981002",
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202242252004"
+        "ObjectRef": "oval:com.redhat.cve:obj:202242252001"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "tomcat-el-3.0-api is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:202334981006",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202242252002"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "tomcat-docs-webapp is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:202334981008",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202242252005"
       },
       "State": {}
     },
@@ -108191,45 +108213,23 @@
     },
     {
       "Check": "at least one",
-      "Comment": "tomcat-docs-webapp is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202334981014",
+      "Comment": "tomcat-servlet-4.0-api is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:202334981016",
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202242252005"
+        "ObjectRef": "oval:com.redhat.cve:obj:202242252004"
       },
       "State": {}
     },
     {
       "Check": "at least one",
       "Comment": "tomcat-webapps is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202334981016",
-      "Version": "635",
-      "CheckExistence": "none_exist",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202242252008"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "tomcat-jsp-2.3-api is not installed",
-      "ID": "oval:com.redhat.unaffected:tst:202334981018",
-      "Version": "635",
-      "CheckExistence": "none_exist",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202242252001"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "tomcat-el-3.0-api is not installed",
       "ID": "oval:com.redhat.unaffected:tst:202334981020",
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202242252002"
+        "ObjectRef": "oval:com.redhat.cve:obj:202242252008"
       },
       "State": {}
     }
