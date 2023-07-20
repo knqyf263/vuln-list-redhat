@@ -82332,6 +82332,102 @@
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20234154004"
       }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk is earlier than 1:11.0.20.0.8-1.el8_1",
+      "ID": "oval:com.redhat.rhsa:tst:20234165001",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20191518001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20234165001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-demo is earlier than 1:11.0.20.0.8-1.el8_1",
+      "ID": "oval:com.redhat.rhsa:tst:20234165003",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20191518002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20234165001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-devel is earlier than 1:11.0.20.0.8-1.el8_1",
+      "ID": "oval:com.redhat.rhsa:tst:20234165005",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20191518003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20234165001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-headless is earlier than 1:11.0.20.0.8-1.el8_1",
+      "ID": "oval:com.redhat.rhsa:tst:20234165007",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20191518004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20234165001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-javadoc is earlier than 1:11.0.20.0.8-1.el8_1",
+      "ID": "oval:com.redhat.rhsa:tst:20234165009",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20191518005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20234165001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-javadoc-zip is earlier than 1:11.0.20.0.8-1.el8_1",
+      "ID": "oval:com.redhat.rhsa:tst:20234165011",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20191518006"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20234165001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-jmods is earlier than 1:11.0.20.0.8-1.el8_1",
+      "ID": "oval:com.redhat.rhsa:tst:20234165013",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20191518007"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20234165001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-src is earlier than 1:11.0.20.0.8-1.el8_1",
+      "ID": "oval:com.redhat.rhsa:tst:20234165015",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20191518008"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20234165001"
+      }
     }
   ],
   "RpmverifyfileTests": [
